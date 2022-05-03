@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+table {
+    /* border: 1px solid purple; */
+    display: inline-table;
+    margin: 1em;
+    border: dashed 5px;
+
+    border-collapse: separate;
+    border-spacing: 6px;
+}
+
+tr {
+    border-bottom: 2px solid purple;
+    /* border: 1px solid purple; */
+
+}
+
+table th,
+table td {
+    border: solid 3px;
+}
+
+
+h3 {
+    color: purple;
+    margin: 25px;
+}
+
+thead {
+    background-color: pink;
+}
+
+#tableTags {
+    margin: 50px;
+}
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
